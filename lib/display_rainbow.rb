@@ -13,7 +13,7 @@ def display_rainbow(colors)
     if(x != colors[colors.length - 1])
       print ", "
     else
-      print "\n""
+      print "\n"
     end
   end
 end
