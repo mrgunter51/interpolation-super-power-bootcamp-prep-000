@@ -12,6 +12,8 @@ def display_rainbow(colors)
     print "#{x[0].upcase}: #{x}"
     if(x != colors[colors.length - 1])
       print ", "
+    else
+      puts ""  
     end
   end
 end
