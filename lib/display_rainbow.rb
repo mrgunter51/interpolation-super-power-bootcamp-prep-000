@@ -10,7 +10,9 @@
 def display_rainbow(colors)
   colors.each do |x|
     print "#{x[0].upcase}: #{x}"
-    if(x = colors[colors.length - 1])
+    if(x != colors[colors.length - 1])
+      print ", "
+    end
   end
 end
 
